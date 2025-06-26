@@ -12,4 +12,4 @@ def export_results(subs, out):
             writer.writeheader()
             writer.writerows(subs)
     else:
-        raise ValueError('Format non supporté : .json ou .csv uniquement')
+        raise ValueError('Unsupported format: .json or .csv only')
